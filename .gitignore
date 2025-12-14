@@ -1,6 +1,7 @@
 loss-landscape/
 local/
 data/
+models/
 
 notes.txt
 .vscode

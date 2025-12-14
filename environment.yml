@@ -1,0 +1,24 @@
+name: general_ml_env
+channels:
+  - defaults
+dependencies:
+  - python==3.10.18
+  - ipykernel
+  - conda-forge::numpy
+  - bioconda::phate
+  - conda-forge::scikit-learn
+  - networkx
+  - python-louvain
+  - conda-forge::umap-learn
+  - conda-forge::seaborn
+  - conda-forge::geopandas
+  - conda-forge::plotly
+  - conda-forge::datashader
+  - anaconda::nbformat
+  - colorcet
+  - conda-forge::pytorch-lightning
+  - pot
+  - conda-forge::transformers
+  - sentence-transformers
+  - faiss-gpu
+prefix: C:\Users\brenn\anaconda3\envs\general_ml_env
