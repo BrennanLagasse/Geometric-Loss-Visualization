@@ -2,6 +2,7 @@ loss-landscape/
 local/
 data/
 models/
+__pycache__/
 
 notes.txt
 .vscode
