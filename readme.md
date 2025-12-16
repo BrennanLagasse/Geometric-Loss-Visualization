@@ -17,19 +17,9 @@ Baseline model files trained for the pytorch ResNet-101 and Densenet-121 models 
 
 ### Loss Landscape Visualization
 
-This project visualizes neural network loss landscapes using both standard parameter-space perturbations (Li et al.) and latent-space perturbations via an autoencoder.
+Here we can visualize neural network loss landscapes using both standard parameter-space perturbations (Li et al.) and latent-space perturbations via an autoencoder.
 
-## Requirements
-- Python ≥ 3.9  
-- PyTorch  
-- torchvision  
-- numpy, matplotlib, tqdm  
 
-A GPU is recommended but not required (CPU works for low-resolution grids).
-
----
-
-## Setup
 1. Download pretrained model checkpoints:
    - `mini_cnn_cifar10.pt`
    - `mini_resnet_cifar10.pt`
